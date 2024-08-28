@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Masroor Inamdar - Full Stack Developer Portfolio</title>
+    <meta name="description" content="Masroor Inamdar's portfolio showcasing skills in Full Stack Development, including projects in C, Java, PHP, HTML, and CSS.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Masroor Inamdar",
+          "jobTitle": "Full Stack Developer",
+          "url": "https://yourdomain.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/masroorinamdar",
+            "https://github.com/masroorin"
+          ]
+        }
+    </script>
+        
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mainbg">
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">Masroor Inamdar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+
+
+
+    <script>  //This Javascript is used to hide the navitem when the user clicks on it
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    // Check if the screen width is 768px or less (mobile view)
+                    if (window.innerWidth <= 768) {
+                        // Collapse the navbar
+                        bootstrap.Collapse.getInstance(navbarCollapse).hide();
+                    }
+                });
+            });
+        });
+
+    </script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="main_container">
+    <!-- Home Section -->
+    <section id="home" class="text-center">
+        <div class="container d-flex  flex-column flex-md-row">
+            <div class="text-content mb-4 mb-md-0">
+                <h2>Hello!</h2>
+
+                <p class="masroor">I am <span class="highlight">Masroor Inamdar</span></p>
+                <p class="blinking-text">Software Developer</p>
+                <br>
+                <p><a href="https://www.linkedin.com/in/masroorinamdar" class="btn btn-yellow py-3 px-4">Linkedin</a> 
+                    <a href="https://github.com/masroorin" class="btn btn-transparent py-3 px-4">My Works</a>                    
+                </p>
+           </div>
+           <div class="text-content1">
+                <h2>Hello!</h2>
+
+                <p class="masroor">I am Masroor </p>
+                <p class="masroor">Inamdar</p>
+                <p class="blinking-text">Software Developer</p>
+                <br>
+                <p><a href="https://www.linkedin.com/in/masroorinamdar" class="btn btn-yellow py-3 px-4">Linkedin</a> 
+                    <a href="https://github.com/masroorin" class="btn btn-transparent py-3 px-4">My Works</a>                    
+                </p>
+
+                <img src="images/masroor-image.png" alt="Masroor Inamdar" class="masroor1-image">
+           </div>
+           <div class="image-class">
+            <img src="images/masroor-image.png" alt="Masroor Inamdar" class="masroor-image">
+           </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="about" class="text-center">
+        <text class="stroked-text">KNOW MORE ABOUT ME...</text>
+        <div class="vertical-arrow"></div>
+        <div class="container d-flex flex-column flex-md-row">
+            
+            <div class="about-text">
+                
+                <p class="description fade-in">With four months of comprehensive experience in the field of Software Development, accompanied by a bachelor's degree in engineering. Proficient in C, Java, PHP, HTML/CSS, and MySQL Database. Demonstrated success in leading impactful projects and providing effective mentorship.</p>
+                
+                <div class="info-row fade-in">
+                    <div class="info-box name-box">
+                        <p>Name</p>
+                        <p>Masroor Inamdar</p>
+                    </div>
+                    <div class="info-box email-box">
+                        <p>Email</p>
+                        <p>masroorinamdar2002@gmail.com</p>
+                    </div>
+                </div>
+            
+                <div class="info-row fade-in">
+                    <div class="info-box address-box">
+                        <p>Address</p>
+                        <p>Solapur, Maharashtra</p>
+                    </div>
+                    <div class="info-box phone-box">
+                        <p>Phone No.</p>
+                        <p>+91 9763617652</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+
+            <br><br>
+            <text class="interest">My Interests</text>
+
+
+            <div class="interests-container">
+                <div class="interest-item">
+                    <div class="interest-logo pencil-logo"></div>
+                    <p class="interest-text">Drawing</p>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-logo paintbrush-logo"></div>
+                    <p class="interest-text">Arts</p>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-logo code-logo"></div>
+                    <p class="interest-text">Coding</p>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-logo book-logo"></div>
+                    <p class="interest-text">Reading</p>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-logo music-logo"></div>
+                    <p class="interest-text">Music</p>
+                </div>
+            </div>
+            
+            <div class="button-container fade-in">
+                <a href="https://drive.google.com/file/d/16RaYEG849bMNGcJ5PUYGbTLdQrIsd9XX/view?usp=drive_link" class="btn btn-yellow">Download CV</a>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const aboutSection = document.getElementById('about');
+    const fadeInElements = aboutSection.querySelectorAll('.fade-in');
+
+    function animateOnScroll() {
+        const sectionTop = aboutSection.getBoundingClientRect().top;
+        const triggerPoint = window.innerHeight / 1.1;
+
+        if (sectionTop < triggerPoint) {
+            fadeInElements.forEach(element => {
+                element.style.opacity = 1;
+                element.style.transform = 'translateY(0)';
+            });
+        }
+    }
+
+    window.addEventListener('scroll', animateOnScroll);
+});
+
+    </script>
+    
+
+
+
+
+
+
+
+
+
+    <section id="education" class="text-center">
+        <div class="container">
+            <h2 class="stroked-text">EDUCATION</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content left">
+                        <h3>High School</h3>
+                        <span class="date">2017 - 2018</span>
+                        <p>SSA New English Medium School. Solapur</p>
+                        
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content right">
+                        <h3>Diploma in Computer Technology</h3>
+                        <span class="date">2018 - 2021</span>
+                        <p>Government Polytechnic, Solapur</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content left">
+                        <h3>Bachelor of Technology</h3>
+                        <span class="date">2021 - 2024</span>
+                        <p>Dr. Babasaheb Ambedkar Technological University</p>
+                    </div>
+                </div>
+                
+                <!-- Add more timeline items as needed -->
+            </div>
+        </div>
+    </section>
+    <script>
+        // Function to check if an element is in the viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Function to add the 'visible' class to elements in the viewport
+        function handleScrollAnimation() {
+            const timelineItems = document.querySelectorAll('.timeline-content');
+            timelineItems.forEach(item => {
+                if (isInViewport(item)) {
+                    item.classList.add('visible');
+                }
+            });
+        }
+
+        // Trigger the animation on scroll
+        window.addEventListener('scroll', handleScrollAnimation);
+
+        // Trigger the animation on page load (for items already in the viewport)
+        handleScrollAnimation();
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="skills">
+        <h2 class="stroked-text">PROFESSIONAL SKILLS</h2>
+        <div class="container">
+            <h2 class="section-title">My skills demonstrating expertise, experience, and passion in Software Development to drive success and innovation</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="images/C.png" alt="C Icon">
+                    </div>
+                    <h3>85%</h3>
+                    <p>C</p>
+                </div>
+    
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="images/java.png" alt="Java Icon">
+                    </div>
+                    <h3>75%</h3>
+                    <p>JAVA</p>
+                </div>
+    
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="images/php.png" alt="PHP Icon">
+                    </div>
+                    <h3>80%</h3>
+                    <p>PHP</p>
+                </div>
+    
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="images/html.png" alt="html Icon">
+                    </div>
+                    <h3>90%</h3>
+                    <p>HTML / CSS</p>
+                </div>
+    
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="images/mysql.png" alt="mysql Icon">
+                    </div>
+                    <h3>90%</h3>
+                    <p>MYSQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+                
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="experience">
+        <div class="experience-section">
+            <h2 class="stroked-text" style="text-align: center;">WORK EXPERIENCE</h2>
+            <p>Completed four months Internship as a Full Stack Developer at Triwits Technologies Pvt. Ltd. Vijayapura, Karnataka. </p>
+            <p>Designed and optimized web applications using CodeIgniter's MVC framework, improving server response time and user engagement. Implemented custom SEO-friendly URLs and modular controllers, enhancing navigation and database efficiency.</p>
+            <br><br>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <h3 class="experience-title">The Company</h3>
+                    <img src="images/triwits-logo.png" alt="Company Logo" class="experience-logo">
+                    <p>Triwits Technologies</p>
+                    <p>Vijayapura, Karnataka</p>
+                </div>
+                <div class="experience-arrow">
+                    <h2>&lt;</h2>
+                </div>
+                <div class="experience-item">
+                    <h3 class="experience-title">The Project</h3>
+                    <img src="images/fullstack.png" alt="Project Logo" class="experience-logo">
+                    <p>Web Development</p>
+                    <p>Jan 2024 - Apr 2024</p>
+                </div>
+                <div class="experience-arrow">
+                    <h2>&gt;</h2>
+                </div>
+                <div class="experience-item">
+                    <h3 class="experience-title">The Job Title</h3>
+                    <img src="images/computer.png" alt="Job Title Logo" class="experience-logo">
+                    <p>Full Stack Developer</p>
+                    <p>Intern</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <script>
+        // Function to check if an element is in the viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Function to add the 'visible' class to elements in the viewport
+        function handleScrollAnimation() {
+            const experienceItems = document.querySelectorAll('.experience-item');
+            experienceItems.forEach(item => {
+                if (isInViewport(item)) {
+                    item.classList.add('visible');
+                }
+            });
+        }
+
+        // Trigger the animation on scroll
+        window.addEventListener('scroll', handleScrollAnimation);
+
+        // Trigger the animation on page load (for items already in the viewport)
+        handleScrollAnimation();
+
+    </script>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="projects" class="projects-section">
+        <h2 class="stroked-text" style="text-align: center;">_PROJECTS_</h2>
+        <div class="container">
+            <div class="project-item">
+                <div class="project-content">
+                    <h3>Project 1</h3>
+                    <h2>Chat Application</h2>
+                    <p>Developed a customer support chat application with features like message submission, ticket generation, and management using CodeIgniter framework and enhanced real-time communication.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="https://github.com/masroorin/chat-application-using-PHP-MVC" class="read-more">more</a>
+                </div>
+                <div class="project-image">
+                    <img src="images/chat-application.png" alt="Dating Mobile App Design">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-content">
+                    <h3>Project 2</h3>
+                    <h2>Sports Management System</h2>
+                    <p>It is a simple Sports Management System with features of adding, deleting and managing the sports.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="https://github.com/masroorin/Sports_mvc" class="read-more">more</a>
+                </div>
+                <div class="project-image">
+                    <img src="images/sports.jpg" alt="E Commerce Mobile App Design">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Function to check if an element is in the viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Function to add the 'visible' class to elements in viewport
+        function handleScrollAnimation() {
+            const projectItems = document.querySelectorAll('.project-item');
+            projectItems.forEach(item => {
+                if (isInViewport(item)) {
+                    item.classList.add('visible');
+                }
+            });
+        }
+
+        // Trigger the animation on scroll
+        window.addEventListener('scroll', handleScrollAnimation);
+
+        // Trigger the animation on page load (for items already in the viewport)
+        handleScrollAnimation();
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center">
+        <h2 class="stroked-text">CONTACT ME</h2>
+        <div class="container">
+            <form  action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="contact-form">
+                <input type="hidden" name="access_key" value="98d53d73-6cd7-4b44-b90a-637be1171580">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required class="line-input"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="form-message" style="margin-top: 20px;"></div>
+            <div class="social-links">
+                <p>Find me here</p>
+                <a href="https://www.instagram.com/_masroor_09" target="_blank" class="social-icon instagram-icon"></a>
+                <a href="https://github.com/masroorin" target="_blank" class="social-icon github-icon"></a>
+                <a href="https://www.linkedin.com/in/masroorinamdar" target="_blank" class="social-icon linkedin-icon"></a>
+            </div>
+        </div>
+    </section>
+    <!-- This JavaScript is to handle active link highlighting in the navbar-->
+    <script>
+        // Highlight the navbar link when the corresponding section is in view
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 80;
+                if (pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(currentSection)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
