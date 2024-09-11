@@ -10,7 +10,7 @@ body {
 @media (max-width: 480px){
     .mainbg{
         background-color: #F0F4FF;
-        margin: 0 20px;
+        margin: 0 10px;
     }
     section {
         padding: 30px 0;
